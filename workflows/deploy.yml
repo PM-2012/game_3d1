@@ -2,8 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ['main'] # Если у тебя ветка master, поменяй на master
-  workflow_dispatch:
+    branches: ['main'] # Если у тебя ветка master, поменяй на 'master'
+  workflow_dispatch: # Позволяет запускать деплой вручную во вкладке Actions
 
 permissions:
   contents: read
